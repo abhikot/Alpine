@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Sunflower:300');
-
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 /* Global Styles */
 
 body,
@@ -13,42 +14,65 @@ textarea,
 dropdown-menu,
 dropdown-item, collapse, navbar-collapse
 {
-  font-family: 'Playfair Display', serif;
   font-family: 'Sunflower', sans-serif;
   font-size: 31px;
 }
 
 .sec-font {
-    font-family: 'Gudea', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
 }
 
+.third-font {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
 img.logoimage {
    display: block;
    margin-left: auto;
    margin-right: auto;
 }
 
-.bg-light {
+.bg-maroon {
   background-color: #910000 !important;
 }
 
-body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+.bg-lightgrey {
+    background-color: #F0F0F0;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+/*body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element 
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
+*/
 
 /* Navbar classes */
 
 .navbar {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
-.dropdown-toggle {
-  margin-right: 30px
+.dropdown-toggle{
+  margin: 2px 98px 2px;
 }
 
+/* Design Aspects */
+
+.square-container {
+    background-color: #F0F0F0;
+    width: 1000px;
+    height: 45px;
+    text-align: center;
+    margin: 0px 195px 0px;
+    padding: 10px;
+}
    /* .consultants {
     filter: alpha(opacity=20);
     display: block;
