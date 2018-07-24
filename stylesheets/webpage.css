@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Sunflower:300');
 
+/* Global Styles */
+
 body,
 input,
 button,
@@ -34,6 +36,16 @@ body {
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
+
+/* Navbar classes */
+
+.navbar {
+  margin-top: 20px;
+}
+
+.dropdown-toggle {
+  margin-right: 30px
+}
 
    /* .consultants {
     filter: alpha(opacity=20);
