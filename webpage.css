@@ -16,9 +16,9 @@ textarea,
 
 .sec-font {
     font-family: 'Gudea', sans-serif;
-}  
+}
 
-img.logoimage {  
+img.logoimage {
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -35,22 +35,16 @@ body {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
-.navbar .nav-item,.navbar-collapse, .navbar-brand, .nav-link {
-        float:none;
-        display:inline-block;
-        vertical-align: top;
-    }
-    
    /* .consultants {
     filter: alpha(opacity=20);
     display: block;
-    margin: 0 auto;   
+    margin: 0 auto;
     position: relative;
     text-align: center;
     color: white;
     object-fit: cover;
 }
-        
+
    .question-text {
     position: absolute;
     top: 120%;
@@ -60,7 +54,7 @@ body {
     font-size: 40px;
     color: black;
 }
-    
+
     .goal-text {
     position: absolute;
     top: 130%;
