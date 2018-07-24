@@ -34,12 +34,6 @@ body {
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
-
-.navbar .nav-item,.navbar-collapse, .navbar-brand, .nav-link {
-        float:none;
-        display:inline-block;
-        vertical-align: top;
-    }
     
    /* .consultants {
     filter: alpha(opacity=20);
