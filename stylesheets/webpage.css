@@ -20,7 +20,8 @@ dropdown-item, collapse, navbar-collapse
 
 .sec-font {
     font-family: 'Merriweather', serif;
-    font-size: 22px;
+    font-size: 28px;
+    color: white;
 }
 
 .third-font {
@@ -45,6 +46,23 @@ img.logoimage {
     background-color: #FFFFFF;
 }
 
+div.centeralign {
+  text-align: center;
+}
+
+div.leftalign {
+  text-align: left;
+}
+
+/* center text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 /*body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element 
   line-height: 1.6;
@@ -56,11 +74,12 @@ img.logoimage {
 /* Navbar classes */
 
 .navbar {
-  margin-top: 5px;
+  margin-top: 2px;
+  margin-bottom: 0!important;
 }
 
 .dropdown-toggle{
-  margin: 2px 98px 2px;
+  margin: 2px 98px 0px;
 }
 
 /* Design Aspects */
@@ -70,9 +89,44 @@ img.logoimage {
     width: 1000px;
     height: 45px;
     text-align: center;
-    margin: 0px 195px 0px;
-    padding: 10px;
+    margin: 0px 75px 0px;
+    padding: 5px;
 }
+
+img.universityimage {
+    opacity: 1.0;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img.universityimage:hover {
+    opacity: 0.5;
+    -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(20%);
+}
+
+.collegeadmissions {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
    /* .consultants {
     filter: alpha(opacity=20);
     display: block;
