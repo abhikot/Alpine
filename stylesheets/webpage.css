@@ -93,7 +93,7 @@ div.leftalign {
 }
 
 .dropdown-toggle{
-  margin: 2px 2px 2px;
+  margin: 2px 0px 2px;
   float: center;
 }
 
@@ -102,7 +102,7 @@ div.leftalign {
   color: black;
   font-size: 17px;
   text-align: left;
-  padding: 10px 10px;
+  padding: 8px 8px;
 }
 
 .dropdown {
@@ -124,6 +124,11 @@ div.leftalign {
   display: block;
 }
 
+ul li {
+    margin-left: 110px;
+    margin-right: 60px;
+}
+
 /* Design Aspects */
 
 .square-container {
@@ -140,6 +145,50 @@ img.universityimage {
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
+.icon-colleges {
+    position:relative;
+    text-align: block;
+    margin-left: -12px;
+    margin-right: 0px;
+    font-family: 'Montserrat', serif;
+    font-size: 20px;
+}
+
+.icon-apply {
+    position: relative;
+    text-align: block;
+    margin-left: -17px;
+    margin-right: 0px;
+    font-family: 'Montserrat', serif;
+    font-size: 20px;
+}
+
+.icon-database {
+    position: relative;
+    text-align: block;
+    margin-left: -20px;
+    margin-right: px;
+    font-family: 'Montserrat', serif;
+    font-size: 20px;
+}
+
+.icon-network {
+    position: relative;
+    text-align: block;
+    margin-left: 4px;
+    margin-right: 0px;
+    font-family: 'Montserrat', serif;
+    font-size: 20px;
+}
+
+.icon-testing {
+    position: relative;
+    text-align: block;
+    margin-left: -8px;
+    margin-right: 0px;
+    font-family: 'Montserrat', serif;
+    font-size: 20px;
+}
 /*img.universityimage:hover {
     opacity: 0.5;
     -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 
