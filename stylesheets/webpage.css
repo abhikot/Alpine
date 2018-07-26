@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Sunflower:300');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 /* Global Styles */
 
 body,
@@ -20,7 +21,7 @@ dropdown-item, collapse, navbar-collapse
 
 .sec-font {
     font-family: 'Merriweather', serif;
-    font-size: 28px;
+    font-size: 30px;
     color: white;
 }
 
@@ -57,9 +58,22 @@ div.leftalign {
 /* center text */
 .centered {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 45%;
+    transform: translate(-40%, -50%);
+    color: white;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    transform: translate(-30%, -50%);
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -75,11 +89,39 @@ div.leftalign {
 
 .navbar {
   margin-top: 2px;
-  margin-bottom: 0!important;
+  margin-bottom: 0 !important;
 }
 
 .dropdown-toggle{
-  margin: 2px 98px 0px;
+  margin: 2px 2px 2px;
+  float: center;
+}
+
+.navbar a {
+  float: center;
+  color: black;
+  font-size: 17px;
+  text-align: left;
+  padding: 10px 10px;
+}
+
+.dropdown {
+  float: center;
+  overflow: show;
+}
+
+.navbar a:hover, .dropdown:hover .navbar-toggler {
+  background-color: black;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-menu a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
 
 /* Design Aspects */
@@ -98,11 +140,11 @@ img.universityimage {
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
-img.universityimage:hover {
+/*img.universityimage:hover {
     opacity: 0.5;
-    -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 
     filter: grayscale(20%);
-}
+}*/
 
 .collegeadmissions {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
