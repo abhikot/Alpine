@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC');
 /* Global Styles */
 
 body,
@@ -86,14 +87,24 @@ div.college-admissions-g1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.feature_area {
-  background: #eeeeee;
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 80%;
-  min-height: 51px;
-  z-index: 1;
+.feature_area .overlay {
+  background: url(../images/campus.jpg) no-repeat scroll center center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 125%;
+  bottom: 0;
+  z-index: -1;
+  opacity: .25;
+}
+
+.feature_item {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 50px 37px 35px 37px;
+  border: 1px solid #6c6d77;
+  color: #fff;
 }
 
 .feature_area1 {
@@ -147,6 +158,46 @@ div.college-admissions-g1 {
   color: #fff;
   background-color: #138496;
   border-color: #117a8b;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /*
