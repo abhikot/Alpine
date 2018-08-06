@@ -563,3 +563,290 @@ font-style: italic;
   padding: 0px;
 }
 
+/* about stuff */
+
+/* Three columns side by side */
+.column {
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 0px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+div.transbox {
+  margin: 160px 180px;
+  background-color: #ffffff;
+  border: 1px solid white;
+  opacity: 0.5;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+}
+    
+.textbox {
+    margin: 10px 240px;
+}
+
+.textbox1 {
+    margin: 10px 190px;
+}
+
+.textbox1 {
+    margin: 10px 170px;
+}
+
+/* three stop process */
+/* The grid: Three equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.containerTab {
+    padding: 20px;
+    color: white;
+    width: 1139px;
+    margin: 0px -15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.list-unstyled {
+  padding-left: 0px;
+  list-style: none;
+}
+
+/* packages */
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.mt-3,
+.my-3 {
+  margin-top: 1rem !important;
+}
+
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.service {
+    position: relative;
+    padding: 20px 20px 20px 20px;
+    margin: 15px 0px;
+    border: 1px solid #EEE;
+}
+
+.service i {
+    position: absolute;
+    left: 20px;
+    text-align: center;
+    font-size: 32px;
+    color: #6195FF;
+    border-radius: 50%;
+}
+
+.service:after {
+    content: "";
+    background-color: #1C1D21;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+}
+
+.service:hover:after {
+    width: 100%;
+}
+
+.service h3 {
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+.service:hover h3 {
+    color: #fff;
+}
+
+/* -- section  -- */
+
+.section {
+    position: relative;
+}
+
+.md-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sm-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+h2.a {
+    visibility: hidden;
+}
+
+.pricing {
+    position: relative;
+    text-align: center;
+    border: 1px solid #EEE;
+    background-color: #FFF;
+    z-index: 11;
+    margin: 15px 10px;
+}
+
+.pricing::after {
+    content: "";
+    background-color: #1C1D21;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s height;
+    transition: 0.2s height;
+}
+
+.pricing:hover:after {
+    height: 100%;
+}
+
+.pricing .price-head {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.pricing .price-title {
+    display: block;
+    padding: 20px 20px 20px;
+    text-transform: uppercase;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 25px"
+}
+
+.pricing:hover .price-title {
+    color: #6195FF;
+}
+
+.pricing .price {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid #6195FF;
+}
+
+.pricing .price h3 {
+  font-size: 42px;
+  margin: 0px;
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.pricing:hover .price h3 {
+    color: #fff;
+}
+
+.pricing .duration {
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #10161A;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
+
+.pricing:hover .duration {
+    color: #fff;
+}
+
+.pricing .price-btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* pricing */
+    
