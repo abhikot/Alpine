@@ -1,0 +1,5 @@
+export MONGODB_URI="mongodb://chrislh9000:y24vw9zJ@ds159651.mlab.com:59651/apiary"
+export STRIPE_PUBLISH_KEY="pk_test_MYTgIIF8vIHBBOjvpZ3X4fbD"
+export STRIPE_SECRET_KEY="sk_test_jpX0vXT71ekJmTGUqjkJBfun"
+export GOOGLE_APPLICATION_ID="404703630931-ehc10tsjev3jo6du2vueibbprj8qjpe6.apps.googleusercontent.com"
+export GOOGLE_APPLICATION_SECRET="PqfuPgCia6VNLHti3ZOUpJZv"

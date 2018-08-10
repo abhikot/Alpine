@@ -1,0 +1,18 @@
+<h4>Checkout</h4>
+<a class ="btn btn-success" href = "/">Back to Home Page</a><br><br>
+<a class ="btn btn-success" href = "/users/myProfile">Back to Profile</a><br><br>
+<div class="product-overview">
+  <h3>Product Overview</h3>
+</div>
+<h3>Pay with Stripe</h3>
+<form action="/checkout" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key={{cartPublish}}
+    data-amount="999"
+    data-name="Demo Site"
+    data-description="Widget"
+    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+    data-locale="auto">
+  </script>
+</form>

@@ -1,0 +1,22 @@
+<h1 style="text-align: center"> Profile </h1>
+<div style="padding: 10px; border: solid 1px black" class ="container-fluid center-block">
+<h4>Name:</h4>
+<p>{{user.name}}</p>
+<h4>Email:</h4>
+<p>{{user.email}}</p>
+<h4>Profile Picture:</p>
+<img src={{user.imageUrl}}></img>
+<h4>Biography:</h4>
+<p>{{user.biography}}</p>
+<h4>School:</h4>
+<p>{{user.school}}</p>
+<h4>Gender:</h4>
+<p>{{user.gender}}</p> <br><br>
+<b>Logged in as:</b> {{logged}} <br>
+<a style="margin-bottom: 10px" class="btn btn-info" href="/">Home Page</a><br>
+{{#if owner}}
+<a style="margin-bottom: 10px" class="btn btn-primary" href="/users/edit/">Edit Profile</a><br>
+{{/if}}
+<a style="margin-bottom: 10px" class="btn btn-primary" href="/users/all">View All Consultants</a><br>
+<a class = "btn btn-danger" href= "/logout">Logout</a>
+</div>

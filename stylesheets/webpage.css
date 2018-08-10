@@ -631,7 +631,7 @@ div.transbox p {
 .column1 {
     float: left;
     width: 33.33%;
-    padding: 50px;
+    padding: 30px;
     text-align: center;
     font-size: 25px;
     cursor: pointer;
@@ -701,6 +701,14 @@ html {
     border: 1px solid #EEE;
 }
 
+.service2 {
+    position: relative;
+    padding: 20px 20px 20px 20px;
+    margin: 15px 0px;
+    border: 1px solid black
+        ;
+}
+
 .service i {
     position: absolute;
     left: 20px;
@@ -748,8 +756,8 @@ html {
 }
 
 .sm-padding {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 h2.a {
@@ -850,3 +858,31 @@ h2.a {
 
 /* pricing */
     
+.number {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.number i {
+    color: #6195FF;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.number h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.columnA {
+    float: center;
+    width: 45%;
+    color: maroon; 
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 30px"
+}
+
+.columnB {
+    float: center;
+    width: 5%;
+}

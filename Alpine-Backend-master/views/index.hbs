@@ -1,0 +1,229 @@
+
+<div>
+  {{#if loggedIn}}
+  <a class="btn btn-info" style="float:right; margin-right: 10px" href="/users/myProfile">My Profile</a>
+  <a class="btn btn-info" style="float:right; margin-right: 10px" href="/logout">Logout</a>
+  <p style="float:right; margin-right: 10px">Logged in as: {{username}}</p>
+  {{else}}
+  <a class="btn btn-info" style="float:right; margin-right:10px" href="/login">Login</a>
+  <a class="btn btn-info" style="float:right; margin-right:10px" href="/register">Register</a>
+  {{/if}}
+</div>
+<img src="./images/apiary.png" alt="Alpine Consulting" style="width:500px;height:160px;" class="logoimage">
+<nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-maroon">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class = "container">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="btn-group nav-item dropdown">
+          <a1 class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            ABOUT
+          </a1>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+            <a class="dropdown-item" href="#">THE TEAM</a>
+            <a class="dropdown-item" href="#">THE VISION</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">TRAINING</a>
+            <a class="dropdown-item" href="#">RESULTS</a>
+            <a class="dropdown-item" href="#">PAYMENT</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">CONTACT US</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a1 class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            OUR SERVICES
+          </a1>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+            <a class="dropdown-item" href="#">CONSULTING CORE</a>
+            <a class="dropdown-item" href="#">DATABASES</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">ALPINE NETWORK</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a1 class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            APPLY
+          </a1>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+            <a class="dropdown-item" href="#">WHAT DOES ALPINE LOOK FOR?</a>
+            <a class="dropdown-item" href="#">APPLY</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- <div class="consultants">
+<img src="/images/Education-Consultant.jpg" alt="Education-Consultant" style="width: 1800; height:500px;" class="responsive">
+
+<div class="question-text"> Where do you want to study? </div>
+
+<div class="goal-text"> Our goal is to bridge the information gap between successful college applicants and potential applicants to ensure the success of the latter. </div>
+
+</div> -->
+
+<div style="height:580px;" class="fixed-bg2 p_120">
+  <div class="container">
+    <div class="block">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h3 style = "color: white; font-family: 'Montserrat', sans-serif; font-size: 48px"> <center>Where do you want to study? </center></h3>
+      <h5 style = "color: white; font-family: 'Montserrat', sans-serif; font-size: 28px;"> <center><i> Our goal is to bridge the gap between your academic dreams and your reality</i> </center></h5>
+    </div>
+  </div>
+</div>
+<br> <br>
+
+<!--col-lg12 col-md-12 col-sm-12 col-12-->
+
+<div class = "container">
+  <br>
+  <br>
+  <br>
+  <ul class = "row align-items-start">
+    <div class = "col colleges">
+      <img src="./images/Colleges_icon.png" width="142px" height="157px" class = "square-colleges">
+    </div>
+
+    <div class = "col apply">
+      <img src="./images/Apply_icon.png" width="142px" height="157px" class = "square-apply">
+    </div>
+
+    <div class = "col network">
+      <img src="./images/Network_icon.png" width="142px" height="157px" class = "square-network">
+    </div>
+
+    <div class = "col database">
+      <img src="./images/Database_icon.png" width="142px" height="157px" class = "square-database">
+    </div>
+
+    <div class = "col testing">
+      <img src="./images/Testing_icon.png" width="142px" height="157px" class = "square-testing">
+    </div>
+  </ul>
+  <ul class = "row align-items-center">
+    <div class = "col">
+      <h4 class = "icon-colleges"> College Selection</h4>
+    </div>
+
+    <div class = "col">
+      <h4 class = "icon-apply"> Application Writing</h4>
+    </div>
+
+    <div class = "col">
+      <h4 class = "icon-network"> Hive Network</h4>
+    </div>
+
+    <div class = "col">
+      <h4 class = "icon-database"> Resource Database</h4>
+    </div>
+
+    <div class = "col">
+      <h4 class = "icon-testing"> Testing Resources</h4>
+    </div>
+  </ul>
+</div>
+<br> <br> <br>
+
+<div class="big-block">
+  <div class="container-fluid bg-maroon sec-font">
+    <center> COLLEGE ADMISSIONS TODAY </center>
+  </div>
+  <!--
+  <img src="./images/grey.jpg" width="1421px" height="570px" class = "greybackground">
+
+  <div class = "container-fluid small-block">
+
+  <div class = "col-6">
+  <div class="bg-white third-font leftalign">
+  The college admissions process is different for everyone. For some it is an intimidating task that shadows over their finals years of highschool and for others it is a unique opportunity to showcase themselves. Regardless of where you fall on that spectrum, it is undeniable that the admissions process has become considerably more competitive over time.
+</div>
+</div>
+
+<div class = "col-6"></div>
+</div> -->
+</div>
+
+
+<!--<img src="./images/statistics.png" alt="Acceptance Statistics" style="width:500px;height:300px;" class="logoimage">
+-->
+
+<div style="height:280px;" class="fixed-bg p_120">
+  <div class="container">
+    <div class="block">
+      <br>
+      <br>
+      <h3 style = "color: indianred; font-family: 'Montserrat', sans-serif; font-size: 28px"> <center>THE COLLEGE ADMISSIONS PROCESS IS BECOMING INCREASINGLY <strong style = "font-size: 45px; font-family: 'Merriweather', sans-serif"><b> COMPETITIVE</b></strong></center></h3>
+      <br>
+      <h5 style = "color: black; font-family: 'Montserrat', sans-serif; font-size: 23px;"> <center><i> As obtaining high GPA’s and stellar standardized testing scores becomes more <strong style = "font-size: 34px; color:indianred;"> common </strong>, it is critical to capitalize on academic consulting opportunities.</i> </center></h5>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <br>
+  <br>
+  <div class="row feature_inner">
+    <div class="col-lg-4">
+      <h1 style = "color: indianred; font-family: 'Montserrat', sans-serif; font-size: 40px"><center> 12% </center></h1>
+      <div class="feature_item-1">
+        <p><center> is the average percent of all Ivy-League admits from '22 who are international. <strong> A vast minority. </strong></center></p>
+        <div>
+          <br>
+          <center> <a href="#stat3" class="btn btn-info" data-toggle="collapse"> SEE MORE</a>
+            <div id="stat3" class="collapse">
+              <br>
+              <img src = "images/stat3.png" alt="Admission Statistics" style="width: 430px; height:160px; margin: auto -30px" class="responsive">
+            </div></center>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <h1 style = "color: indianred; font-family: 'Montserrat', sans-serif; font-size: 40px"><center> 482:1 </center></h1>
+        <div class="feature_item-1">
+          <p><center> is the average student-to-guidance counselor ratio. A <strong>huge disparity. </strong></center></p>
+          <center>
+            <div>
+              <br>
+              <center> <a href="#stat2" class="btn btn-info" data-toggle="collapse"> SEE MORE</a>
+                <div id="stat2" class="collapse">
+                  <br>
+                  <img src = "images/stat2.png" alt="Admission Statistics" style="width: 350px; height: 236px; margin: auto -80px" class="responsive">
+                </div></center>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <h1 style = "color: indianred; font-family: 'Montserrat', sans-serif; font-size: 40px"><center> 7.5% </center></h1>
+            <div class="feature_item-1">
+              <p>
+                <center> is the average decrease in acceptance rates for all 8 Ivy-League institutions. </center>
+              </p>
+              <div>
+                <br>
+                <center> <a href="#stat1" class="btn btn-info" data-toggle="collapse"> SEE MORE</a>
+                  <div id="stat1" class="collapse">
+                    <br>
+                    <img src = "images/stat1.png" alt="Admission Statistics" style="width: 360px; height: 230px; margin: auto -30px" class="responsive">
+                  </div></center>
+                </div>
+              </div>
+              <br>
+            </div>
+          </div>
+        </div>
